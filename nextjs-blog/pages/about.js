@@ -1,27 +1,40 @@
 import Head from 'next/head'
 
 export default function About() {
-    return (
-        <div className="container">
-            <Head>
-                <title>metroize - about</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <main>
-                <h1 className="title">About</h1>
-            </main>
-            <footer>
-                <a
-                    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Powered by{' '}
-                    <img src="/vercel.svg" alt="Vercel" className="logo" />
-                </a>
-            </footer>
+  return (
+    <div className="container">
+      <Head>
+        <title>About</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main>
+        <h1 className="title">About</h1>
+        <div>
+          Hi. My name is Kris Krause. I write software. Language and platform? Depends on the problem.
+        </div>
+        <h2>First computer programmed?</h2>
+        <div>
+          The TRS-80. I remember hanging out at the local Radio Shack entering silly programs to output childish phrases on the TV screen in an infinite loop. Most of the salesmen kept an eye on me whenever entering the store. Fortunately, my Catholic middle school purchased a computer and I learned Logo to instruct a turtle to draw lines and circles on the screen. It wasn’t magic after after all!
+        </div>
 
-            <style jsx>{`
+        <h2>First decent program written?</h2>
+        <div>
+          In middle school I disliked studying for history tests. So I developed (in BASIC) a multiple choice quiz that randomly selected questions and randomized answer choices. At the end, it summed up your score and told the user (which was just me) which ones I got wrong. I regret losing the 5.25 inch floppy and not entering my program in the school science fair. It would have been so much better than a typical volcano project.
+        </div>
+
+      </main>
+      <footer>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel" className="logo" />
+        </a>
+      </footer>
+
+      <style jsx>{`
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -32,7 +45,7 @@ export default function About() {
         }
 
         main {
-          padding: 5rem 0;
+          padding: 2rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -152,7 +165,7 @@ export default function About() {
         }
       `}</style>
 
-            <style jsx global>{`
+      <style jsx global>{`
         html,
         body {
           padding: 0;
@@ -166,6 +179,6 @@ export default function About() {
           box-sizing: border-box;
         }
       `}</style>
-        </div>
-    )
+    </div>
+  )
 }
