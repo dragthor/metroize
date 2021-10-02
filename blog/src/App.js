@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { MemoryRouter, Switch, Route } from 'react-router-dom';
+
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+import './App.css';;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Coming soon.
-        </p>
-        <a
-          className="App-link"
-          href="https://metroize.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          metroize
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Jumbotron>
+        <h1 className="header">metroize</h1>
+      </Jumbotron>
+      <Row>
+        <Col style={{ "text-align": "center" }}>This is my blog.</Col>
+      </Row>
+    </Container>
   );
 }
 
