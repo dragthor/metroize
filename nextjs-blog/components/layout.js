@@ -23,10 +23,9 @@ export default function Layout({ children, home }) {
             <header className={styles.header}>
                 {home ? (
                     <>
-                        <Image
-                            priority
+                        <img
                             src="/images/profile.png"
-                            className={utilStyles.borderCircle}
+                            class={utilStyles.borderCircle}
                             height={144}
                             width={144}
                             alt={name}
@@ -37,10 +36,9 @@ export default function Layout({ children, home }) {
                     <>
                         <Link href="/">
                             <a>
-                                <Image
-                                    priority
+                                <img
                                     src="/images/profile.png"
-                                    className={utilStyles.borderCircle}
+                                    class={utilStyles.borderCircle}
                                     height={108}
                                     width={108}
                                     alt={name}
