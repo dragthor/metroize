@@ -56,6 +56,11 @@ export default function Layout({ children, home }) {
                         </h2>
                     </>
                 )}
+
+                <div className="navbar">
+                    <Link href="/">Home</Link> | <Link href="/about">About</Link> | <a href="https://www.linkedin.com/in/kris-krause/" target="_blank">LinkedIn</a> | <a href="https://github.com/dragthor" target="_blank">Github</a> | <a href="http://stackoverflow.com/users/139547/kris-krause" target="_blank">Stackoverflow</a>
+                </div>
+
             </header>
             <main>{children}</main>
             {!home && (
@@ -65,8 +70,15 @@ export default function Layout({ children, home }) {
                     </Link>
                 </div>
             )}
+
             <footer>
-            Disclaimer: The opinions expressed here represent my own and not those of my employer.
+                <div className="navbar">
+                    <Link href="/">Home</Link> | <Link href="/about">About</Link> | <a href="https://www.linkedin.com/in/kris-krause/" target="_blank">LinkedIn</a> | <a href="https://github.com/dragthor" target="_blank">Github</a> | <a href="http://stackoverflow.com/users/139547/kris-krause" target="_blank">Stackoverflow</a>
+                </div>
+
+                <div className="disclaimer">
+                    Disclaimer: The opinions expressed here represent my own and not those of my employer.
+                </div>
             </footer>
         </div>
     )

@@ -38,12 +38,7 @@ export default function Home({ allPostsData }) {
 
 
 
-        <div>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </div>
-
+       
       </main>
 
 
