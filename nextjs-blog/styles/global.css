@@ -38,6 +38,10 @@ code {
   display: inline;
 }
 
+.post-date {
+font-size: .85em;
+}
+
 footer {
   font-size: .75em;
   margin-top: 1em;
