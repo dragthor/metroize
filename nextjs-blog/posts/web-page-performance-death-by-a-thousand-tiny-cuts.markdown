@@ -2,7 +2,7 @@
 date: "2016-03-18"
 layout: post
 title: "Web Page Performance Death by a Thousand Tiny Cuts"
-permalink: /web-page-performance-death-by-a-thousand-tiny-cuts/
+permalink: /web-page-performance-death-by-a-thousand-tiny-cuts
 meta: javascript performance
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/performance-thousand-cuts.jpg
@@ -87,4 +87,3 @@ Code suggested change:
 
 Ignore the `outerHeight` call (we can discuss another time).  The self-invoking anonymous function might be overkill.  Although ideally it should be a named function organized within a namespace.  The `var` caching helps and the code is also more readable.  But this could just be personal style and not necessarily wrong.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
 
-{% include disqus.html %}

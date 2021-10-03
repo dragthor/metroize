@@ -2,7 +2,7 @@
 date: "2016-04-20"
 layout: post
 title: "Introducing Zurb Foundation 6 Plugins"
-permalink: /zurb-foundation-6-plugins/
+permalink: /zurb-foundation-6-plugins
 meta: zurb
 published: true
 description: "How to make a Zurb Foundation 6 plugin.  What are the ingredients?  Boilerplate Javascript code functions."
@@ -70,6 +70,3 @@ I hope to have a non-fictitious Zurb datepicker plugin available soon if there i
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
-{% include signup.html %}
-
-{% include disqus.html %}

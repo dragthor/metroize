@@ -2,7 +2,7 @@
 date: "2016-03-30"
 layout: post
 title: "What's new in Zurb Foundation 6?"
-permalink: /zurb-foundation-6-whats-new/
+permalink: /zurb-foundation-6-whats-new
 meta: zurb
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
@@ -89,6 +89,3 @@ Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good an
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
-{% include signup.html %}
-
-{% include disqus.html %}

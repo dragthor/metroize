@@ -2,7 +2,7 @@
 date: "2016-05-04"
 layout: post
 title: "Google AdSense: Loved It.  Hated It.  Ditched It."
-permalink: /google-adsense-love-hate-ditch/
+permalink: /google-adsense-love-hate-ditch
 meta: dev-life
 published: true
 description: "A Google AdSense story: Loved It.  Hated It.  Ditched It."
@@ -67,5 +67,3 @@ I like my site to be as fast as possible.  [AdSense](https://www.google.com/adse
 
 ### Final Thoughts
 Like many others, I rode the [AdSense](https://www.google.com/adsense) roller coaster and became too fixated on earning advertising money at the expense of my visitors, members, and friends.  Unfortunately, I tried to bring it to [metroize.com](http://metroize.com) too.  It’s hard to admit, but I sacrificed my values and user experience for money.  In the future, I might recommend a book or bring on a sponsor like [Telerik](http://www.telerik.com/), [Raygun](https://raygun.com/), [New Relic](https://newrelic.com/), [Azure](https://azure.microsoft.com/en-us/), [Trello](https://trello.com/), or [PluralSight](https://www.pluralsight.com/).  It’s important that I promote products and services that I use, own, are relevant to my audience, and are not lame.
-
-{% include disqus.html %}

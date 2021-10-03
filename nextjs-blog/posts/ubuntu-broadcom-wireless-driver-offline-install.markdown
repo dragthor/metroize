@@ -2,7 +2,7 @@
 date: "2015-11-11"
 layout: post
 title: "Ubuntu Broadcom Wireless Driver Offline Install"
-permalink: /ubuntu-broadcom-wireless-driver-offline-install/
+permalink: /ubuntu-broadcom-wireless-driver-offline-install
 meta: linux ubuntu
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/wireless-coffee.jpg
 description: "Have your offline Ubuntu installation recognize your Broadcom wireless networking card."
@@ -21,4 +21,3 @@ Next, you need to utilize a different computer (or phone, or phablet) to [downlo
 
 You can now either [set up a local aptget offline repository](https://help.ubuntu.com/community/AptGet/Offline/Repository) or even easier - just right-click on the file from within Ubuntu and select "Open with Ubuntu Software Center" to install.
 
-{% include disqus.html %}

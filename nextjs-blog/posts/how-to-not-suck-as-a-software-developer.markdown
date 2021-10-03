@@ -2,7 +2,7 @@
 date: "2016-04-25"
 layout: post
 title: "How to Not Suck as a Software Developer"
-permalink: /how-to-not-suck-as-a-software-developer/
+permalink: /how-to-not-suck-as-a-software-developer
 meta: dev-life soft-skills
 published: true
 description: "How to not suck as a software developer, computer programmer, or front-end web developer)."
@@ -41,5 +41,3 @@ Bounce coding ideas off your co-workers and manager.  Self-educate yourself – 
 ## 5.  Admit mistakes.
 
 Own them.  We all make them.  Point the blame thrower at yourself.
-
-{% include disqus.html %}

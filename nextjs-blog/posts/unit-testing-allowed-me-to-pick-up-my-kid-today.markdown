@@ -2,7 +2,7 @@
 date: "2016-03-02"
 layout: post
 title: "Unit Testing Allowed Me to Pick Up My Kid Today"
-permalink: /unit-testing-allowed-me-to-pick-up-my-kid-today/
+permalink: /unit-testing-allowed-me-to-pick-up-my-kid-today
 meta: unit-testing
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/unit-testing-drive.jpg
 description: "As a parent, I cannot afford to waste time at work (my employer does not want me too either).  Thus I try to automate as many tasks as possible.  I also unit test as much as possible."
@@ -23,4 +23,3 @@ Not only is the next guy (or future self) and code reviewer going to appreciate 
 
 Does unit testing save you time often?  More at the beginning or the end of an iteration/sprint?  Or both?  Still haven't convinced yourself they are worth the effort?  Godspeed.
 
-{% include disqus.html %}

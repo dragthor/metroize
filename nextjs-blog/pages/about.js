@@ -29,11 +29,11 @@ export default function About() {
 
         <h2>First computer owned?</h2>
 
-        <div>The <a href="https://en.wikipedia.org/wiki/Commodore_64" target="_blank">Commodore 64</a> with the floppy and tape drives. I spent a lot of time entering programs from <a href="http://www.atarimagazines.com/compute/" target="_blank">Compute! magazine</a>. The <code className="code-inline">DATA</code> was exteremly frustration! And I copied games like crazy (using both sides of the floppy) as well as learning BASIC. Summer Games, Winter Games, and Impossible Mission which was one of the first games to synthesize voice using the famous <a href="https://www.c64-wiki.com/wiki/SID" target="_blank">SID chip</a> that made it possible - "<a href="https://www.youtube.com/watch?v=k35dUj5kG90" target="_blank">Another visitor. Stay a while. Stay forever!</a>"</div>
+        <div>The <a href="https://en.wikipedia.org/wiki/Commodore_64" target="_blank">Commodore 64</a> with the floppy and tape drives. I spent a lot of time entering programs from <a href="http://www.atarimagazines.com/compute/" target="_blank">Compute! magazine</a>. The <code>DATA</code> was exteremly frustration! And I copied games like crazy (using both sides of the floppy) as well as learning BASIC. Summer Games, Winter Games, and Impossible Mission which was one of the first games to synthesize voice using the famous <a href="https://www.c64-wiki.com/wiki/SID" target="_blank">SID chip</a> that made it possible - "<a href="https://www.youtube.com/watch?v=k35dUj5kG90" target="_blank">Another visitor. Stay a while. Stay forever!</a>"</div>
 
         <h2>High school?</h2>
 
-        <div>I joined the computer club. Unfortunately, it was mostly <a href="https://en.wikipedia.org/wiki/Wang_Laboratories">Wang</a> terminals, word processing, and setting UNIX directory permissions <code className="code-inline">-rwx</code>. I wanted to program games, a D&D dice roller, hangman, and text-based adventures (like <a href="https://en.wikipedia.org/wiki/Zork" target="_blank">Zork</a>).</div>
+        <div>I joined the computer club. Unfortunately, it was mostly <a href="https://en.wikipedia.org/wiki/Wang_Laboratories">Wang</a> terminals, word processing, and setting UNIX directory permissions <code>-rwx</code>. I wanted to program games, a D&D dice roller, hangman, and text-based adventures (like <a href="https://en.wikipedia.org/wiki/Zork" target="_blank">Zork</a>).</div>
 
         <h2>College?</h2>
 

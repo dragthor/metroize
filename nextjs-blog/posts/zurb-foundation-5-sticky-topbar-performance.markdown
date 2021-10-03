@@ -2,7 +2,7 @@
 date: "2016-06-07"
 layout: post
 title: "Zurb 5 Sticky Topbar Performance"
-permalink: /zurb-foundation-5-sticky-topbar-performance/
+permalink: /zurb-foundation-5-sticky-topbar-performance
 meta: zurb performance
 published: true
 description: "Zurb Foundation 5 sticky topbar performance."
@@ -18,17 +18,11 @@ I introduced a new setting named `scroll_throttle` with a default value of 300 m
 
 Inside the `sticky` function this:
 
-{% highlight javascript %}
-this.S(window).on('scroll', function () { self.update_sticky_positioning(); });
-{% endhighlight %}
+`this.S(window).on('scroll', function () { self.update_sticky_positioning(); });`
 
 Becomes:
 
-{% highlight javascript %}
-this.S(window).on('scroll', self.throttle( function () {
-        self.update_sticky_positioning();
-      }, self.settings.scroll_throttle));
-{% endhighlight %}
+`this.S(window).on('scroll', self.throttle( function () { self.update_sticky_positioning(); }, self.settings.scroll_throttle));`
 
 View the [pull request](https://github.com/zurb/foundation-sites/pull/8884/files).  Sure, it's a slight gain but the stutter is pretty much gone.
 
@@ -43,7 +37,3 @@ Javascript profiler after:
  "Zurb 5 Tobar Profiled Before")
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.  And yes, I work for a company that sells bras.
-
-{% include signup.html %}
-
-{% include disqus.html %}

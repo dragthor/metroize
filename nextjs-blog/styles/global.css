@@ -32,11 +32,9 @@ code {
   padding: .25em;
   margin-top: .5em;
   margin-bottom: .5em;
-}
-
-.code-inline {
   display: inline;
 }
+
 
 .post-date {
 font-size: .85em;

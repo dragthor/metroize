@@ -2,7 +2,7 @@
 date: "2015-09-02"
 layout: post
 title: "Hello World! Android Unit Testing with Espresso"
-permalink: /hello-world-android-unit-test/
+permalink: /hello-world-android-unit-test
 meta: android unit-testing espresso
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/espresso.jpg
 description: "Tackling android unit testing has more than one approach - JUnit tests and Espresso tests.  Automate Android UI testing."
@@ -17,8 +17,7 @@ Historically extending [ApplicationTestCase](http://developer.android.com/refere
 
 The latest version of [Android Studio](https://developer.android.com/sdk/index.html) provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html) included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html).  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org) if desired.  However, I believe the fluid API of Espresso makes it (and feels) easier to find views, perform actions, and verify state.  
 
-{% highlight java %}
-onView(withId(R.id.txtHello))
+`onView(withId(R.id.txtHello))
 	.check(matches(withText("")));
 onView(withId(R.id.btnHello))
 	.check(matches(withText(R.string.clickme)))
@@ -26,18 +25,15 @@ onView(withId(R.id.btnHello))
 onView(withId(R.id.txtHello))
 	.check(matches(withText(R.string.helloworld)));
 onView(withId(R.id.btnHello))
-	.check(matches(not(isEnabled())));
-{% endhighlight %}
-
+	.check(matches(not(isEnabled())));`
+	
 And yes, JUnit tests tend to be faster than Espresso tests since they can avoid context and the android framework.
 
 Important for your app's build.gradle -
 
-{% highlight json %}
-defaultConfig { 
+`defaultConfig { 
 	testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-}
-{% endhighlight %}
+}`
 
 And then utilize your project's Build Variants to toggle between JUnit tests and Espresso tests.
 
@@ -47,5 +43,3 @@ Android Studio 1.5.1
 JUnit 4.1.1
 Espresso 2.+
 Android Support Library 23.1.1
-
-{% include disqus.html %}

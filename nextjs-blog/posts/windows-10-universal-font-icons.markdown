@@ -2,7 +2,7 @@
 date: "2015-10-11"
 layout: post
 title: "Windows 10 Universal Font Icons"
-permalink: /windows-10-universal-font-icons/
+permalink: /windows-10-universal-font-icons
 meta: windows-app
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/fonts.jpg
 ---
@@ -37,4 +37,4 @@ If you work mostly offline (like I do), you can always pull up [Windows Characte
 
 See that U+E001 value?  That translates to - ```FontIcon = "\ue001"```
 
-{% include disqus.html %}
+

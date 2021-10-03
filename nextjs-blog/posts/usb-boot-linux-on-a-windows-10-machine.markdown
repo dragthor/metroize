@@ -2,7 +2,7 @@
 date: "2015-11-10"
 layout: post
 title: "USB Boot Linux on a Windows 10 Machine"
-permalink: /usb-boot-linux-on-a-windows-10-machine/
+permalink: /usb-boot-linux-on-a-windows-10-machine
 meta: linux
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/ubuntu.jpg
 description: "Disable Secure Boot, then change from UEFI Boot to CSM Boot to boot Linux on a Windows 10 machine."
@@ -27,5 +27,3 @@ Save and restart your computer (with the USB device plugged in).
 
 Your system should now boot from USB.
 
-
-{% include disqus.html %}

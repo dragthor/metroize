@@ -2,7 +2,7 @@
 date: "2016-03-24"
 layout: post
 title: "Zurb Foundation 6 Compatibility and Accessibility"
-permalink: /zurb-foundation-compatibility-accessibility/
+permalink: /zurb-foundation-compatibility-accessibility
 meta: zurb
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/lego-guys.jpg
@@ -98,6 +98,3 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 
 Source: [https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx)
 
-{% include signup.html %}
-
-{% include disqus.html %}

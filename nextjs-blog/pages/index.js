@@ -28,7 +28,9 @@ export default function Home({ allPostsData }) {
           <ul className={utilStyles.list}>
             {allPostsData.map(({ id, date, title }) => (
               <li className={utilStyles.listItem} key={id}>
-                {title}
+                <Link href={`/${id}`}>
+                  <a>{title}</a>
+                </Link>
                 <br />
                 <span className="post-date">{date}</span>
               </li>
@@ -38,7 +40,7 @@ export default function Home({ allPostsData }) {
 
 
 
-       
+
       </main>
 
 

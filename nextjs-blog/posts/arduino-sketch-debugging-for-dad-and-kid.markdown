@@ -2,7 +2,7 @@
 date: "2016-03-10"
 layout: post
 title: "Engage: Arduino Sketch Debugging for Dad (and the Kids)"
-permalink: /arduino-sketch-debugging-for-dad-and-kids/
+permalink: /arduino-sketch-debugging-for-dad-and-kids
 meta: arduino linux ubuntu
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/arduino.jpg
 description: "I did it.  I took the plunge.  I finally purchased an Arduino.  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know."
@@ -19,11 +19,9 @@ Working with an Arduino is not my first attempt at combining circuit building an
 
 The [Arduino Software IDE](https://www.arduino.cc/en/Main/Software) is easy to install and use.  One way (and the easiest) to program the Arduino is to use [Sketch](https://www.arduino.cc/en/Tutorial/Sketch).  It's a language that sits above [C/C++](https://en.wikipedia.org/wiki/C_%28programming_language%29).  Software debugging and testing is accomplished simply by using `Serial.println(someSensorValue);`.  Some sensors and components can be tricky.  There might be other ways out there too.  Let me know!  Here is an example:
 
-{% highlight c %}
-void setup() { Serial.begin(9600); }
+`void setup() { Serial.begin(9600); }`
 
-void loop() { Serial.println(someSensorValue); };
-{% endhighlight %}
+`void loop() { Serial.println(someSensorValue); };`
 
 An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug and design software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
 
@@ -49,4 +47,3 @@ One way to change this is to run this command:
 
 Are you ready to take the [Arduino](https://www.arduino.cc/) plunge?  It's a great way to share your excitement, personality, and job (if you are a computer programmer) with your kids.  **Engage and interact**.  Build a robot that operates outside.  Watch Star Wars and Star Trek with them later.
 
-{% include disqus.html %}

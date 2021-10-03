@@ -2,7 +2,7 @@
 date: "2016-04-13"
 layout: post
 title: "Top 5 Signs You Are Working with a Cowboy Software Consultant"
-permalink: /cowboy-software-consultant/
+permalink: /cowboy-software-consultant
 meta: dev-life
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/cowboy-consultant.jpg
@@ -53,5 +53,3 @@ Protect yourself.  Protect your project.  Protect your architecture.  Protect yo
  * Does not follow existing software patterns or project architecture decisions.
  * Rearranges code for the sake of rearranging code.  This "looks" like work, but it is not refactoring or helping much.
  * Poor time management.  Poor communication skills.  Poor [soft skills](/soft-skills/).
-
-{% include disqus.html %}

@@ -2,7 +2,7 @@
 date: "2016-04-04"
 layout: post
 title: "The Smartest Guy in the Room is Not the Best Developer"
-permalink: /smartest-guy-in-the-room-not-the-best-developer/
+permalink: /smartest-guy-in-the-room-not-the-best-developer
 meta: dev-life soft-skills
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/smartest-developer.jpg
@@ -39,5 +39,3 @@ The smart, hardworking, consistent, day in and day out developers that deliver? 
 Disclaimer: I am not anti-Ph.D..  I am anti-jerk.
 
 Stay tuned for some more [developer war stories](/dev-life/) as I remember them.  [Consultants Ate My Unit Tests](/consultants-ate-my-unit-tests/) was popular.
-
-{% include disqus.html %}

@@ -2,7 +2,7 @@
 date: "2016-05-10"
 layout: post
 title: "Zurb Foundation 6 Pricing Table"
-permalink: /zurb-foundation-6-pricing-table/
+permalink: /zurb-foundation-6-pricing-table
 meta: zurb
 published: true
 description: "How to make a Zurb Foundation 6 pricing table.  They were removed from Zurb Foundation 6."
@@ -50,6 +50,3 @@ Pricing tables were missed.  And I agree with Zurb's decision to not make them p
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
-{% include signup.html %}
-
-{% include disqus.html %}

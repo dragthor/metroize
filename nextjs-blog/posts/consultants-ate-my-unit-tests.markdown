@@ -2,7 +2,7 @@
 date: "2016-03-23"
 layout: post
 title: "Consultants Ate My Unit Tests"
-permalink: /consultants-ate-my-unit-tests/
+permalink: /consultants-ate-my-unit-tests
 meta: unit-testing dev-life
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/consultant-unit-testing.jpg
@@ -37,5 +37,3 @@ Several less expensive programmers disregarded and ignored the unit tests since 
 And now not one single new unit test (the old ones rendered meaningless). The code base is in an inconsistent state.  Everyone is afraid to make a code change.  I guess that's why I was called?  And yes, I helped to resolve the bug but kindly and gracefully declined to regularly get directly involved again. I wonder how less expensive they are now?  Surely the company is paying now. 
 
 Disclaimer:  I am not anti-consultant.  And I am not anti-overseas consultant.
-
-{% include disqus.html %}

@@ -2,7 +2,7 @@
 date: "2016-05-19"
 layout: post
 title: "5 Tips to Lose Weight for Programmers"
-permalink: /5-tips-to-lose-weight-for-programmers/
+permalink: /5-tips-to-lose-weight-for-programmers
 description: "Software developers are overweight.  Here are five tips for programmers (and myself) to lose weight."
 meta: health
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/chard.jpg
@@ -33,7 +33,3 @@ Zero alcohol.  There, I said it.  It makes you tired and creates lazy eating hab
 Eat breakfast daily.  Sometimes when I wake up in the morning, my stomach and thoughts are saying "no" to food, but you have to eat.  If you skip, you might make a bad decision on the way to work (like stopping at McDonalds) or at work (someone bringing in unhealthy food to share).  Let's face it.  Whenever someone brings food into work, it's neither healthy nor nutritional.  Rather, it's leftover brownies, cake, and extra Halloween or Easter candy.  Willpower alone won't help.  But a full stomach (or completely avoiding the cafeteria) will help.
 
 In summary, start small using the five tips above.  I wanted to keep them narrow and focused.  Losing weight is a marathon, not a sprint.  There is an old database saying: garbage in, garbage out.  This same rule applies to your body.  The aforementioned tips are applicable for everyone, not just software developers.  However, developers are people who tend to sit most of the day.  Developers are also my coworkers, peers, and friends.  Are there any other tips that should be added to the list?  Maybe some that are more specific to computer programmers?  Last time I checked programmers are people too.  Stay tuned for more posts.
-
-{% include signup.html %}
-
-{% include disqus.html %}

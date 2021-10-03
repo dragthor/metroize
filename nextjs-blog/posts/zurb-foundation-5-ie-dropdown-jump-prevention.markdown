@@ -2,7 +2,7 @@
 date: "2016-05-25"
 layout: post
 title: "Zurb 5 IE Dropdown Jump Prevention"
-permalink: /zurb-foundation-5-ie-dropdown-jump-prevention/
+permalink: /zurb-foundation-5-ie-dropdown-jump-prevention
 meta: zurb
 published: true
 description: "Zurb Foundation 5 IE (internet explorer) dropdown jump prevention."
@@ -42,6 +42,3 @@ Browser quirks are still prevalent.  Fortunately, [Zurb Foundation 5](http://fou
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.   And yes, I work for a company that sells bras.
 
-{% include signup.html %}
-
-{% include disqus.html %}

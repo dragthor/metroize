@@ -2,7 +2,7 @@
 date: "2016-03-14"
 layout: post
 title: "John Sonmez Simple Programmer Blog Email Course"
-permalink: /john-sonmez-simple-programmer-blog-email-course/
+permalink: /john-sonmez-simple-programmer-blog-email-course
 meta: soft-skills
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/email-course.jpg
@@ -19,5 +19,3 @@ Sure you might think that you know how to blog.  I am sure you do.  There are lo
 I even purchased his book [Soft Skills: The software developer's life manual](https://simpleprogrammer.com) and cannot wait to read the productivity, financial, personal fitness chapters.
 
 Are you going to make a million dollars over night or even at all?  Of course not.  And John is not promising it.  Are you going to be successful?  Maybe.  Maybe not.  However, there are some things that you can learn from other successful people like John.  What's the final nail in the coffin to sign up for his [email course](http://devcareerboost.com/blog-course/)?  John is a software developer.  He's been in the trenches.  Just like you and me.
-
-{% include disqus.html %}

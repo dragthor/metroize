@@ -2,7 +2,7 @@
 date: "2016-04-03"
 layout: post
 title: "Zurb Plugin Working Example"
-permalink: /zurb-plugin-working-example/
+permalink: /zurb-plugin-working-example
 meta: zurb
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/foundation-dude-blue.png
@@ -70,8 +70,4 @@ blink.start();
 
 ## Conclusion
 Hopefully this article helped you get to a starting point to begin creating Zurb plugins.  Please leave a comment or question below.  Or maybe you would like to see another example with additional features like `events`, `reflow`, `Keyboard`, or responsiveness?  Let [me](/about/) know.  Go Zurb!
-
-{% include signup.html %}
-
-{% include disqus.html %}
 

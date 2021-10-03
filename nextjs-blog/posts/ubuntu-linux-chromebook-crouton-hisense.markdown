@@ -2,7 +2,7 @@
 date: "2016-02-26"
 layout: post
 title: "Produce: Turn a Hisense Chromebook into a Dual Ubuntu/Chrome OS Laptop"
-permalink: /ubuntu-linux-chromebook-crouton-hisense/
+permalink: /ubuntu-linux-chromebook-crouton-hisense
 meta: linux ubuntu
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/chromebook.jpg
 description: "Chromebooks are small affordable laptops.  Utilize Crouton with a Hisense C11 to produce content."
@@ -27,5 +27,3 @@ In the future, I plan on purchasing two more Chromebooks for my kids (wink wink 
 
 Final thoughts - are you primarily a consumer or a producer?  And what is the ideal balance?  80% producer, 20% consumer?  And are you consuming too much?  Personally, I need to be producing more consuming less.
 
-
-{% include disqus.html %}
