@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
                     <>
                         <img
                             src="/images/profile.png"
-                            class={utilStyles.borderCircle}
+                            className={utilStyles.borderCircle}
                             height={144}
                             width={144}
                             alt={name}
@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
                             <a>
                                 <img
                                     src="/images/profile.png"
-                                    class={utilStyles.borderCircle}
+                                    className={utilStyles.borderCircle}
                                     height={108}
                                     width={108}
                                     alt={name}
@@ -65,6 +65,9 @@ export default function Layout({ children, home }) {
                     </Link>
                 </div>
             )}
+            <footer>
+            Disclaimer: The opinions expressed here represent my own and not those of my employer.
+            </footer>
         </div>
     )
 }

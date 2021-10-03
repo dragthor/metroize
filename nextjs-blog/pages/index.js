@@ -29,10 +29,7 @@ export default function Home() {
 
       </main>
 
-      <footer>
-
-      </footer>
-
+  
   
     </Layout>
   )
