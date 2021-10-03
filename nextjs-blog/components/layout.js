@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Script from 'next/script'
 
 const name = 'Kris Krause'
 export const siteTitle = 'metroize'
@@ -23,6 +24,7 @@ export default function Layout({ children, home }) {
 
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+                <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"></link>
             </Head>
             <header className={styles.header}>
                 {home ? (
@@ -58,7 +60,7 @@ export default function Layout({ children, home }) {
                 )}
 
                 <div className="navbar">
-                    <Link href="/">Home</Link> | <Link href="/about">About</Link> | <a href="https://www.linkedin.com/in/kris-krause/" target="_blank">LinkedIn</a> | <a href="https://github.com/dragthor" target="_blank">Github</a> | <a href="http://stackoverflow.com/users/139547/kris-krause" target="_blank">Stackoverflow</a>
+                    <Link href="/">Home</Link> | <Link href="/about">About</Link> | <a href="https://www.linkedin.com/in/kris-krause/" target="_blank">LinkedIn</a> | <a href="https://github.com/dragthor" target="_blank">Github</a> | <a href="http://stackoverflow.com/users/139547/kris-krause" target="_blank">Stack Overflow</a>
                 </div>
 
             </header>
@@ -73,13 +75,18 @@ export default function Layout({ children, home }) {
 
             <footer>
                 <div className="navbar">
-                    <Link href="/">Home</Link> | <Link href="/about">About</Link> | <a href="https://www.linkedin.com/in/kris-krause/" target="_blank">LinkedIn</a> | <a href="https://github.com/dragthor" target="_blank">Github</a> | <a href="http://stackoverflow.com/users/139547/kris-krause" target="_blank">Stackoverflow</a>
+                    <Link href="/">Home</Link> | <Link href="/about">About</Link> | <a href="https://www.linkedin.com/in/kris-krause/" target="_blank">LinkedIn</a> | <a href="https://github.com/dragthor" target="_blank">Github</a> | <a href="http://stackoverflow.com/users/139547/kris-krause" target="_blank">Stack Overflow</a>
                 </div>
 
                 <div className="disclaimer">
                     Disclaimer: The opinions expressed here represent my own and not those of my employer.
                 </div>
             </footer>
+
+            <Script
+                src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"
+                strategy="lazyOnload"
+                />
         </div>
     )
 }

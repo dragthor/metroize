@@ -9,7 +9,7 @@ description: "Tackling android unit testing has more than one approach - JUnit t
 ---
 Tackling android unit testing has more than one approach.  A library file or class file(s) without android dependencies can utilize [JUnit](http://www.junit.org) or any other Java unit testing framework.  However, as soon as the code that you want to test is dependent on [Activity Context](http://developer.android.com/reference/android/app/Activity.html) you write instrumentation tests that execute on actual devices or virtual devices.
 
-![alt text]({{ page.image }} "Android Espresso")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/espresso.jpg "Android Espresso")
 
 Instrumentation tests save the developer time because the tests should run in seconds – and provide a safety net of regression testing.  You are actually testing your Android code.
 
@@ -17,15 +17,17 @@ Historically extending [ApplicationTestCase](http://developer.android.com/refere
 
 The latest version of [Android Studio](https://developer.android.com/sdk/index.html) provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html) included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html).  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org) if desired.  However, I believe the fluid API of Espresso makes it (and feels) easier to find views, perform actions, and verify state.  
 
-`onView(withId(R.id.txtHello))
-	.check(matches(withText("")));
-onView(withId(R.id.btnHello))
-	.check(matches(withText(R.string.clickme)))
-	.perform(click());
-onView(withId(R.id.txtHello))
-	.check(matches(withText(R.string.helloworld)));
-onView(withId(R.id.btnHello))
-	.check(matches(not(isEnabled())));`
+`
+	onView(withId(R.id.txtHello))
+		.check(matches(withText("")));
+	onView(withId(R.id.btnHello))
+		.check(matches(withText(R.string.clickme)))
+		.perform(click());
+	onView(withId(R.id.txtHello))
+		.check(matches(withText(R.string.helloworld)));
+	onView(withId(R.id.btnHello))
+		.check(matches(not(isEnabled())));
+`
 	
 And yes, JUnit tests tend to be faster than Espresso tests since they can avoid context and the android framework.
 
