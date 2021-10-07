@@ -10,7 +10,7 @@ image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rack
 ---
 The following are not enforceable developer rules.  I did not climb a mountain and receive the following laws from a higher power.  And they are not industry shattering new ideas or techniques.  Rather they are common sense guidelines we are all guilty of breaking once or twice (hopefully not too much more) throughout our professional careers.  They were born from informal peer discussions on how we can each improve individually (and as a part of a team).  And most importantly - **not** suck.
 
-![alt text]({{ page.image }} "How to Not Suck")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/vampire-cat-not-suck.jpg "How to Not Suck")
 
 Most of the time software is complex, has a lot of moving pieces, and involves code with far reaching tentacles.  We are imperfect people creating imperfect software decided by imperfect people with changing imperfect requirements.  No one expects perfection.  However, when developers choose to ignore the following, they will most likely get bit.  And worse, it makes the entire development team look bad.
 

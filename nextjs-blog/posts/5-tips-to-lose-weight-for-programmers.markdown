@@ -10,7 +10,7 @@ published: true
 ---
 You have heard the usual computer programmer stereotype: we are all overweight.  True, we sit at a computer at least eight hours a day.  Some of us, like myself, additionally have an hour commute (each way).  More sitting.  The following five tips helped me to lose close to 30 lbs (I'll share other techniques in future posts).  Did it happen over night?  No.  But taking these small steps helped me to get started.  After about a week, I started to feel better mentally and physically.  And I was able to focus more on work as a software developer.  I no longer yawn during those late afternoon meetings and I have more energy to battle scope creep.
 
-![alt text]({{ page.image }} "5 Tips to Lose Weight for Programmers")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/chard.jpg "5 Tips to Lose Weight for Programmers")
 
 ## Black Coffee
 

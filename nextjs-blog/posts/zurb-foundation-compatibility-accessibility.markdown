@@ -9,7 +9,7 @@ image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rack
 ---
 Accessibility and compatibility are difficult to write about.  Neither are a day in, day out concern for the average developer.  Most of the time we do not worry about either until the very end of a project or worse, after a release to production.
 
-![alt text]({{ page.image }} "Zurb Foundation 6 Compatibility and Accessibility")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/lego-guys.jpg "Zurb Foundation 6 Compatibility and Accessibility")
 
 ## Browser Compatibility
 
@@ -39,62 +39,63 @@ Assistive devices like a screen reader make interacting with your website easier
 
 Foundation 6 uses [what-input](https://github.com/ten1seven/what-input) to determine the current input method (mouse, keyboard, or touch) “to disable outlines for mouse users, but not keyboard users, who need the outline to know what element on the page has focus.”  Here is the Sass mixin definition that you can use in your own components:
 
-{% highlight css %}
-@mixin disable-mouse-outline {
+`@mixin disable-mouse-outline {
   [data-whatinput='mouse'] & {
     outline: 0;
   }
-}
-{% endhighlight %}
+}`
 
 All Foundation components are keyboard-accessible and screen reader-friendly.  Checkout the [source code](https://github.com/zurb/foundation-sites) to see that relevant ARIA HTML attributes are baked into the plugins.  However, it’s important to remember that ultimately you own the markup. Whether it’s `aria-hidden` or the no brainer `img alt` text.  Want to show or hide an element based on the aria-hidden state?  Here you go:
 
-{% highlight css %}
-[aria-hidden=true] {
-    visibility: hidden;
-}
-{% endhighlight %}
+`[aria-hidden=true] { visibility: hidden; }`
 
 I recommend following standard accessibility principles (see [WCAG](https://www.w3.org/TR/WCAG20/) or [MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility) documentation) for your website.  And don’t worry.  The extra ARIA HTML attributes won’t significantly increase your page size.  I am sure your webserver is gzip compressing them anyway.  The additional attributes are probably the least of your web performance worries (see [death by a thousand tiny cuts](/web-page-performance-death-by-a-thousand-tiny-cuts/)).
 
 ### Common Foundation ARIA
 
-| Attribute | Description |
-| --- | --- |
-| aria-label | Defines a string value that labels the current element. |
-| aria-hidden | Sets or retrieves the hidden state of this element. |
-| aria-expanded |	Sets or gets the expanded state of this element. |
-| aria-controls	| Sets or gets the list of elements that are controlled by the current element. |
+ `aria-label` Defines a string value that labels the current element.
+
+ `aria-hidden` Sets or retrieves the hidden state of this element.
+
+ `aria-expanded` Sets or gets the expanded state of this element.
+
+ `aria-controls` Sets or gets the list of elements that are controlled by the current element.
 
 ### Foundation Slider ARIA
 
-| Attribute | Description |
-| --- | --- |
-| aria-valuenow	| Sets or gets the current value of the element. |
-| aria-valuemin	| Sets or gets the minimum value that a user can provide. |
-| aria-valuemax	| Sets or gets the maximum value that a user can provide. |
-| aria-orientation | Indicates whether the element and orientation is horizontal or vertical. |
+ `aria-valuenow` Sets or gets the current value of the element.
+
+ `aria-valuemin` Sets or gets the minimum value that a user can provide.
+
+ `aria-valuemax` Sets or gets the maximum value that a user can provide.
+
+ `aria-orientation` Indicates whether the element and orientation is horizontal or vertical. 
 
 ### Foundation Component ARIA
 
-| Attribute | Description | Component |
-| --- | --- | --- |
-| aria-live | Sets or gets how assistive technology should announce updates to live regions. | Orbit |
-| aria-describedby | Sets or gets a list of elements that describe the current object. | Tooltip |
-| aria-selected | Sets or gets the selection state of this element. | Accordion, Tab |
-| aria-haspopup | Indicates whether this element may display a pop-up window. | Dropdown, Reveal, Tooltip |
-| aria-labelledby | Sets or gets a list of elements that provide a label for the current object. | Accordion, Dropdown, Tabs |
-| aria-multiselectable | Sets or gets the multiple-selection state of this element. | Accordion Menu |
+ `aria-live` Sets or gets how assistive technology should announce updates to live regions. Orbit 
+ 
+ `aria-describedby` Sets or gets a list of elements that describe the current object. Tooltip 
+ 
+ `aria-selected` Sets or gets the selection state of this element. Accordion, Tab 
+ 
+ `aria-haspopup` Indicates whether this element may display a pop-up window. Dropdown, Reveal, Tooltip 
+ 
+ `aria-labelledby` Sets or gets a list of elements that provide a label for the current object. Accordion, Dropdown, Tabs 
+ 
+ `aria-multiselectable` Sets or gets the multiple-selection state of this element.  Accordion Menu 
 
 ### Suggested Optional ARIA – Your Responsibility
 
-| Attribute | Description | Component |
-| --- | --- | --- |
-| aria-disabled | Sets or gets the disabled state of this element. | Button |
-| aria-invalid | Sets or retrieves the error state of this element. | Abide form error |
-| aria-errormessage | Identifies the element that provides an error message. | Abide form error |
-| aria-required | Sets or retrieves the form-completion requirement of this element. | Abide form error |
-| aria-valuetext | Defines the human-readable text alternative of aria-valuenow for a range control. | Progress Bar |
+ `aria-disabled` Sets or gets the disabled state of this element. Button
+
+ `aria-invalid` Sets or retrieves the error state of this element. Abide form error
+
+ `aria-errormessage` Identifies the element that provides an error message. Abide form error
+
+ `aria-required` Sets or retrieves the form-completion requirement of this element. Abide form error 
+
+ `aria-valuetext` Defines the human-readable text alternative of aria-valuenow for a range control. Progress Bar 
 
 Source: [https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx)
 

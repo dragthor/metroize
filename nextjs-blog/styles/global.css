@@ -35,6 +35,13 @@ code {
   display: inline;
 }
 
+blockquote {
+  background-color: #eee;
+  padding: .25em;
+  font-style: italic;
+  text-align: center;
+  padding: .25em;
+}
 
 .post-date {
 font-size: .85em;

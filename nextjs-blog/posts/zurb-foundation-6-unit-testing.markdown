@@ -9,7 +9,7 @@ image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rack
 ---
 
 
-![alt text]({{ page.image }} "Zurb 6 Unit Testing")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-testing.jpg "Zurb 6 Unit Testing")
 
 ## Sass
 

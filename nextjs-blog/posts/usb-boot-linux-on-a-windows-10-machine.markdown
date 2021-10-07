@@ -9,7 +9,7 @@ description: "Disable Secure Boot, then change from UEFI Boot to CSM Boot to boo
 ---
 Things are different compared to five years ago in the hardware world.  Booting a "live" Linux USB on a machine primarily running Windows 10 is little more involved.  I am choosing [Ubuntu](http://www.ubuntu.com) - although [Mint](http://linuxmint.com) is another good choice (and pretty hot right now).
 
-![alt text]({{ page.image }} "Ubuntu")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/ubuntu.jpg "Ubuntu")
 
 The process?  Check it out -
 
@@ -26,4 +26,3 @@ Once in BIOS go to the security tab and disable "Secure Boot".  Then go to the A
 Save and restart your computer (with the USB device plugged in).
 
 Your system should now boot from USB.
-

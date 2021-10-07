@@ -9,7 +9,7 @@ description: "Chromebooks are small affordable laptops.  Utilize Crouton with a 
 ---
 Chromebooks are small affordable laptops.  They are great for **consuming** information, audio, and video.  Elementary, middle, and high schools like their low maintenance, long life, low price, and ease-of-use.  Users can utilize [Google Docs](http://docs.google.com/) to **produce** limited information and content, however it's not enough for "power users" who need the ability to develop software, edit images and video, or to utilize the computer to **produce** something more than a simple spreadsheet, document, or presentation.  Is there an ultra-portable and affordable laptop out there for the **producers** of the world?
 
-![alt text]({{ page.image }} "Chromebook")
+![alt text](ttp://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/chromebook.jpg "Chromebook")
 
 Recently I purchase a $90 USD refurbished Chromebook on Woot (Amazon has them too) -
 
@@ -26,4 +26,3 @@ One consequence of enabling Developer Mode on the Chromebook is that during boot
 In the future, I plan on purchasing two more Chromebooks for my kids (wink wink - dad will be taking them apart).  Probably with an Intel processor just to see if I can successfully build an existing Android project.
 
 Final thoughts - are you primarily a consumer or a producer?  And what is the ideal balance?  80% producer, 20% consumer?  And are you consuming too much?  Personally, I need to be producing more consuming less.
-

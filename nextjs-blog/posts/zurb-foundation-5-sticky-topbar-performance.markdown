@@ -18,11 +18,15 @@ I introduced a new setting named `scroll_throttle` with a default value of 300 m
 
 Inside the `sticky` function this:
 
-`this.S(window).on('scroll', function () { self.update_sticky_positioning(); });`
+    this.S(window).on('scroll', function () { 
+        self.update_sticky_positioning(); 
+    });
 
 Becomes:
 
-`this.S(window).on('scroll', self.throttle( function () { self.update_sticky_positioning(); }, self.settings.scroll_throttle));`
+    this.S(window).on('scroll', self.throttle( function () { 
+        self.update_sticky_positioning(); 
+    }, self.settings.scroll_throttle));
 
 View the [pull request](https://github.com/zurb/foundation-sites/pull/8884/files).  Sure, it's a slight gain but the stutter is pretty much gone.
 

@@ -16,7 +16,7 @@ I find it helpful to think of plugins using this analogy: Zurb is an electrical 
 
 At the end of an electrical cord in your house, there can be numerous types of interchangeable devices (a toaster, a George Foreman grill, a lamp, a [NutriBullet](https://www.nutriliving.com/), etc.).  Having a standardized outlet enables you to substitute any device.  Similar to household devices, Zurb plugins need to follow some predetermined rules, standards, expectations, and interfaces (three holes vs. two holes and 120V vs. 240V).  Plug in a device expecting to receive 120V into a 240V outlet and things go bad (smoke, fire, or turn your new iPhone into a paper weight).  Fortunately, this is software and your plugin will just not work properly or throw Javascript errors if developed incorrectly.  This post explains the ingredients needed to develop a responsive plugin using [Zurb Foundation 6 for Sites](http://foundation.zurb.com/sites). It's less painful than you might think.
 
-![alt text]({{ page.image }} "Zurb Foundation 6 plugin")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-plugin.jpg "Zurb Foundation 6 plugin")
 
 ## Boilerplate Skeleton Code
 

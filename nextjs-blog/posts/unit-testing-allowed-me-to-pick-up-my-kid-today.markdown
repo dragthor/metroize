@@ -9,7 +9,7 @@ description: "As a parent, I cannot afford to waste time at work (my employer do
 ---
 As a parent, I cannot afford to waste time at work (my employer does not want me too either).  Thus, I try to automate as many tasks as possible.  I organize tasks with Trello and synchronize notes, ideas, questions, requirements, and documents using Github, OneNote, and SharePoint.  I schedule and run timely meetings.  And I try to not waste other people's time.  I also unit test as much as possible.  Wait.  What?  Doesn't unit testing take up too much time?  Doesn't it impact project timelines?
 
-![alt text]({{ page.image }} "Unit Testing Kids")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/unit-testing-drive.jpg "Unit Testing Kids")
 
 The answer is **no**.  There I said it.  Unit testing saves time in the **beginning** and the **end** of a sprint (or iteration).  And yes, unit testing is not developer style or preference.  It actually produces positive results.  And helps you write and design good testable code.
 
@@ -22,4 +22,3 @@ Once solidified (again nothing is 100% because things can and will change) the t
 Not only is the next guy (or future self) and code reviewer going to appreciate my coding effort, I was further ahead of schedule than expected.  Fortunately, when the need to leave early arose to pick my kid up from an after school activity - I was able to walk out the door with confidence.  Confident of a decent days work.  And confident that I'll be able to handle the change up ahead the next morning.
 
 Does unit testing save you time often?  More at the beginning or the end of an iteration/sprint?  Or both?  Still haven't convinced yourself they are worth the effort?  Godspeed.
-

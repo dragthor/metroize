@@ -10,7 +10,7 @@ description: "Web page performance is literally a death by a thousand tiny littl
 ---
 Web page performance is literally a death by a thousand tiny little cuts.  Usually, the biggest issue for most is the number of requests a page makes.  Keep the requests down and your web page performance increases.  No magic just common sense.  The mobile world we currently live in makes issuing fewer requests that much more important.  While it's true that mobile and tablet devices are getting more powerful each day, they are still no match for the desktop.  Moreover, desktops are connected to broadband.  Mobile devices are mostly utilizing 3G and 4G.
 
-![alt text]({{ page.image }} "Page Performance Cuts")
+![alt text](ttp://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/performance-thousand-cuts.jpg "Page Performance Cuts")
 
 ## Page Performance
 
@@ -64,26 +64,21 @@ Was there a hard deadline?  Was there an emergency bug fix or issue?  Was it a s
 
 Code under review: 
 
-{% highlight javascript %}
-// Using Zurb foundation.
-if (Foundation.utils.is_small_only() && $(".top-strip").outerHeight(true) == 2) 
-   $(".top-strip").css("padding-top",0)
-{% endhighlight %}
+   // Using Zurb foundation.
+   if (Foundation.utils.is_small_only() && $(".top-strip").outerHeight(true) == 2) 
+      $(".top-strip").css("padding-top",0)
 
 Code suggested change:
 
-{% highlight javascript %}
-(function () {
-   // Using Zurb foundation.
-   if (Foundation.utils.is_small_only()) {
-      var topStrip = $(".top-strip");
+   (function () {
+      // Using Zurb foundation.
+      if (Foundation.utils.is_small_only()) {
+         var topStrip = $(".top-strip");
 
-      if (topStrip.outerHeight(true) === 2) {
-         topStrip.css("padding-top", 0);
+         if (topStrip.outerHeight(true) === 2) {
+            topStrip.css("padding-top", 0);
+         }
       }
-   }
-})();
-{% endhighlight %}
+   })();
 
 Ignore the `outerHeight` call (we can discuss another time).  The self-invoking anonymous function might be overkill.  Although ideally it should be a named function organized within a namespace.  The `var` caching helps and the code is also more readable.  But this could just be personal style and not necessarily wrong.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
-

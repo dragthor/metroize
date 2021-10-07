@@ -20,15 +20,14 @@ The fix?  Simply do not call `.focus()`. View the [pull request](https://github.
 
 We can grab a reference to the dropdown's instance settings inside the `open` function like this:
 
-{% highlight javascript %}
-var settings = target.data(this.attr_name(true) + '-init') || this.settings;
-{% endhighlight %}
+    var settings = 
+    target.data(this.attr_name(true) + '-init') || this.settings;
 
 And then decide to avoid the focus:
 
-{% highlight javascript %}
-if (settings.no_focus === false) { dropdown.focus(); }
-{% endhighlight %}
+    if (settings.no_focus === false) {
+        dropdown.focus(); 
+    }
 
 Hurray!  No more jumping.  The video below demonstrates the desired behavior:
 

@@ -13,22 +13,20 @@ Zurb's [Foundation for Sites 6](http://foundation.zurb.com/sites/docs/) no longe
 ## The End Result
 I made it look exactly like a Zurb 5 Pricing table.  But you can modify the colors, border, and style if you like.
 
-![alt text]({{ page.image }} "Zurb 6 Pricing Table")
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb6-pricing-table.PNG "Zurb 6 Pricing Table")
 
 ## Markup
 The HTML stays exactly the same.  Notice we are **not** using a `<table/>` tag.
 
-{% highlight xml %}
-<ul class="pricing-table">
-  <li class="title">Standard</li>
-  <li class="price">$99.99</li>
-  <li class="description">An awesome description</li>
-  <li class="bullet-item">1 Database</li>
-  <li class="bullet-item">5GB Storage</li>
-  <li class="bullet-item">20 Users</li>
-  <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
-</ul>
-{% endhighlight %}
+  <ul class="pricing-table">
+    <li class="title">Standard</li>
+    <li class="price">$99.99</li>
+    <li class="description">An awesome description</li>
+    <li class="bullet-item">1 Database</li>
+    <li class="bullet-item">5GB Storage</li>
+    <li class="bullet-item">20 Users</li>
+    <li class="cta-button"><a class="button" href="#">Buy Now</a></li>
+  </ul>
 
 ## CSS
 If you haven't already done so, pull down and install [Zurb Foundation](https://github.com/zurb/foundation-sites).  If you are unsure, review the [Getting Started](https://github.com/zurb/foundation-sites#getting-started) instructions.  If you are coming from Zurb 5, check out a previous post: [What's new in Zurb Foundation 6?](/zurb-foundation-6-whats-new/).
