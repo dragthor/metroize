@@ -5,12 +5,12 @@ title: "Zurb 5 Sticky Topbar Performance"
 permalink: /zurb-foundation-5-sticky-topbar-performance
 meta: zurb performance
 published: true
-tags: Zurb
+tags: Zurb, Performance
 description: "Zurb Foundation 5 sticky topbar performance."
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
 ---
 <div class="para">
-While profiling our <a href="http://foundation.zurb.com/sites/docs/v/5.5.3/" target="_blank">Zurb 5</a> implementation, we noticed a slight bottle neck using the "sticky" <code>topbar</code> component.  The user would sometimes experience a "stutter" or "glitch" while scrolling.  And users with lower end devices would experience the issue more often.
+While profiling our <a href="https://get.foundation/sites/docs-v5/" target="_blank">Zurb 5</a> implementation, we noticed a slight bottle neck using the "sticky" <code>topbar</code> component.  The user would sometimes experience a "stutter" or "glitch" while scrolling.  And users with lower end devices would experience the issue more often.
 </div>
 
 <img src="http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png" alt="Zurb" />

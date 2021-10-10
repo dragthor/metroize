@@ -30,7 +30,7 @@ Where it makes sense, Zurb Foundation components are keyboard accessible and scr
 
 ## Zurb Foundation 6 Components
 
-Standalone [Block Grids](http://foundation.zurb.com/sites/docs/v/5.5.3/components/block_grid.html) disappear and have been merged into the default [Grid](http://foundation.zurb.com/sites/docs/grid.html) layout component.  Block Grids provided a way to evenly space list contents regardless of screen size.  Now, it’s a matter of applying a class in this format `[size]-up-[n]` at the row level.  Combining grids is a welcome change since it was a little wonky having two grids in Foundation 5.  Additionally, responsive grid gutters have made their way into Foundation 6.  The ability to responsively define the spacing between the edge of a grid and the edge of the page is a big win for users (and most of my clients).  Warning: static gutters are no longer supported as of version 6.2.
+Standalone [Block Grids](https://get.foundation/sites/docs-v5/components/block_grid.html) disappear and have been merged into the default [Grid](https://get.foundation/sites/docs-v5/components/grid.html) layout component.  Block Grids provided a way to evenly space list contents regardless of screen size.  Now, it’s a matter of applying a class in this format `[size]-up-[n]` at the row level.  Combining grids is a welcome change since it was a little wonky having two grids in Foundation 5.  Additionally, responsive grid gutters have made their way into Foundation 6.  The ability to responsively define the spacing between the edge of a grid and the edge of the page is a big win for users (and most of my clients).  Warning: static gutters are no longer supported as of version 6.2.
 
 > Warning: static gutters are no longer supported as of version 6.2.
 
@@ -51,7 +51,7 @@ As stated directly from [Foundation’s documentation](http://foundation.zurb.co
 
 Plugins are a new addition to the framework too.  They help facilitate consistent integration and enable extensibility.  Although limited to only one element at a time, plugins can be nested and attached to elements using data attributes (`data-accordion` or `data-tooltip`).  This a similar method as found in Foundation 5.  Plugins should utilize `data-options` for settings and default behavior.  Per documentation (and good practice) callbacks as settings are discouraged (and removed) and should be implemented as event listeners.  Moreover, a global `reInit` function is defined and causes one or more active plugins to re-initialize, reset/remove event listeners, recalculate position, etc.  `reInit` is your consistent replacement for `reflow`.
 
-Here are the [Foundation 5](http://foundation.zurb.com/sites/docs/v/5.5.3/) components and features that are now plugins:
+Here are the [Foundation 5](https://get.foundation/sites/docs-v5/) components and features that are now plugins:
 
 * Abide (form validation)
 * Equalizer (equal height manager)

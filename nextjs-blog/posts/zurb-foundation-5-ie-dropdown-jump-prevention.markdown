@@ -5,11 +5,12 @@ title: "Zurb 5 IE Dropdown Jump Prevention"
 permalink: /zurb-foundation-5-ie-dropdown-jump-prevention
 meta: zurb
 published: true
+tags: Zurb
 description: "Zurb Foundation 5 IE (internet explorer) dropdown jump prevention."
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
 ---
 <div class="para">
-Internet Explorer likes to "jump" the user into position when jQuery's <code>.focus()</code> is called within a <a href="http://foundation.zurb.com/sites/docs/v/5.5.3/" target="_blank">Zurb 5</a> dropdown.  I don't like this.  Notice in the video below that when the dropdown is positioned at the bottom of the screen, and the user selects a dropdown, their positioning "jumps" up.  And then the dropdown disappears (this is a separate unrelated <code>scroll</code> handler issue).
+Internet Explorer likes to "jump" the user into position when jQuery's <code>.focus()</code> is called within a <a href="https://get.foundation/sites/docs-v5/" target="_blank">Zurb 5</a> dropdown.  I don't like this.  Notice in the video below that when the dropdown is positioned at the bottom of the screen, and the user selects a dropdown, their positioning "jumps" up.  And then the dropdown disappears (this is a separate unrelated <code>scroll</code> handler issue).
 </div>
 
 <div class="js-video [vimeo, widescreen]">
@@ -52,7 +53,7 @@ Hurray!  No more jumping.  The video below demonstrates the desired behavior:
 <h2>Final Thoughts</h2>
 
 <div class="para">
-Browser quirks are still prevalent.  Fortunately, [Zurb Foundation 5](http://foundation.zurb.com/sites/docs/v/5.5.3/) is still alive, heavily used, and supported by the open-source community.  
+Browser quirks are still prevalent.  Fortunately, <a href="https://get.foundation/sites/docs-v5/" target="_blank">Zurb Foundation 5</a> is still alive, heavily used, and supported by the open-source community.  
 </div>
 
 <div class="para">
