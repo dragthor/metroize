@@ -1,6 +1,4 @@
-import Layout from '../components/layout'
 import { getAllPostIds, getPostData } from '../lib/posts'
-
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
@@ -19,14 +17,12 @@ export async function getStaticPaths() {
     }
 }
 
-export default function Post({ postData }) {
+export default function SiteMap({ postData }) {
     return (
-        <Layout>
-            <h1>{postData.title}</h1>
-            {postData.date}
-            <br />
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}></div>
-            
-        </Layout>
-    )
+        <urlset
+              xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        </urlset>)   
 }

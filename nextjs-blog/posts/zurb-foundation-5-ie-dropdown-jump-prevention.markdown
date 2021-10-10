@@ -8,36 +8,53 @@ published: true
 description: "Zurb Foundation 5 IE (internet explorer) dropdown jump prevention."
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
 ---
-Internet Explorer likes to "jump" the user into position when jQuery's `.focus()` is called within a [Zurb 5](http://foundation.zurb.com/sites/docs/v/5.5.3/) dropdown.  I don't like this.  Notice in the video below that when the dropdown is positioned at the bottom of the screen, and the user selects a dropdown, their positioning "jumps" up.  And then the dropdown disappears (this is a separate unrelated `scroll` handler issue).
-
-<div class="js-video [vimeo, widescreen]">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OmuSAKOMjcQ?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
+<div class="para">
+Internet Explorer likes to "jump" the user into position when jQuery's <code>.focus()</code> is called within a <a href="http://foundation.zurb.com/sites/docs/v/5.5.3/" target="_blank">Zurb 5</a> dropdown.  I don't like this.  Notice in the video below that when the dropdown is positioned at the bottom of the screen, and the user selects a dropdown, their positioning "jumps" up.  And then the dropdown disappears (this is a separate unrelated <code>scroll</code> handler issue).
 </div>
 
-The jumping behavior seems to only be an issue with IE.  Firefox, Safari, and Chrome do not have the weird `.focus()` issue.  It's not hard to see that Microsoft is trying to center the user within the `window`.  Pretty reasonable for some situations, yet it's not what I want.  I desire consistency among IE, Firefox, Safari, and Chrome.
+<div class="js-video [vimeo, widescreen]">
+<iframe width="100%" src="https://www.youtube.com/embed/OmuSAKOMjcQ?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
+</div>
 
-The fix?  Simply do not call `.focus()`. View the [pull request](https://github.com/zurb/foundation-sites/pull/8885/files).  I added an additional setting named `no_focus` defaulting to the current behavior.  A developer can optionally override it when declaring the Zurb dropdown in HTML markup: `data-options="no_focus:true"`.
+<div class="para">
+The jumping behavior seems to only be an issue with IE.  Firefox, Safari, and Chrome do not have the weird <code>.focus()</code> issue.  It's not hard to see that Microsoft is trying to center the user within the <code>window</code>.  Pretty reasonable for some situations, yet it's not what I want.  I desire consistency among IE, Firefox, Safari, and Chrome.
+</div>
 
-We can grab a reference to the dropdown's instance settings inside the `open` function like this:
+<div class="para">
+The fix?  Simply do not call <code>.focus()</code>. View the <a href="https://github.com/zurb/foundation-sites/pull/8885/files" target="_blank">pull request</a>.  I added an additional setting named <code>no_focus</code> defaulting to the current behavior.  A developer can optionally override it when declaring the Zurb dropdown in HTML markup: <code>data-options="no_focus:true"</code>.
+</div>
 
-    var settings = 
-    target.data(this.attr_name(true) + '-init') || this.settings;
+<div class="para">
+We can grab a reference to the dropdown's instance settings inside the <code>open</code> function like this:
+</div>
 
+<pre><code class="language-js">var settings = target.data(this.attr_name(true) + '-init') || this.settings;</code></pre>
+
+<div class="para">
 And then decide to avoid the focus:
-
-    if (settings.no_focus === false) {
-        dropdown.focus(); 
-    }
-
-Hurray!  No more jumping.  The video below demonstrates the desired behavior:
-
-<div class="js-video [vimeo, widescreen]">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D5BbHLIG4cE?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Final Thoughts
+<pre><code class="language-js">if (settings.no_focus === false) {
+    dropdown.focus(); 
+}
+</code></pre>
 
+<div class="para">
+Hurray!  No more jumping.  The video below demonstrates the desired behavior:
+</div>
+
+<div class="para">
+<div class="js-video [vimeo, widescreen]">
+<iframe width="100%" src="https://www.youtube.com/embed/D5BbHLIG4cE?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<h2>Final Thoughts</h2>
+
+<div class="para">
 Browser quirks are still prevalent.  Fortunately, [Zurb Foundation 5](http://foundation.zurb.com/sites/docs/v/5.5.3/) is still alive, heavily used, and supported by the open-source community.  
+</div>
 
+<div class="para">
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.   And yes, I work for a company that sells bras.
-
+</div>
